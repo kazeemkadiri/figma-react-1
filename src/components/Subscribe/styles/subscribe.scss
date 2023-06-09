@@ -1,0 +1,115 @@
+.subscribe-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .subscribe{
+        width: 68.2%;
+        min-height: 23.436rem;
+        background: #3C50E0;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        h3{
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 2.03rem;
+            // line-height: 3.15rem;
+            text-align: center;
+            color: #FFFFFF;
+            position: relative;
+        }
+
+        p{
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 2.1rem;
+            text-align: center;
+            letter-spacing: 0.015em;
+            color: #E8E8E8;
+            margin-top: 2.1%;
+            width: 68%;
+            height: 4.284rem;
+            margin-bottom: 6.9%;
+        }
+    }
+
+    .subscribe-input{
+        width: 74.51%;
+        height: 5.103rem;
+        left: -1px;
+        background: #FCFCFC;
+        border: 1.5px solid #F5F5F5;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        input.myplaceholder{
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 1.26rem;
+            line-height: 1.89rem;
+            letter-spacing: 0.04em;
+            color: #989898;
+            border: none;
+            background: none;
+            width: auto;
+            text-indent: 2.898rem;
+        }
+
+        input.myplaceholder:focus-visible{
+            outline: none;
+        }
+
+        .subscribe-button{
+            position: absolute;
+            width: 31.9%;
+            height: 4.725rem;
+            background: #141E6C;
+            color: #fff;
+            border: none;
+            border-radius: 16px;
+            right: 0.2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 567px) {
+    .subscribe-container{
+        margin-top: 34rem;
+
+        .subscribe{
+            padding-left: 2rem !important;
+            padding-right: 2rem !important;
+            padding: 2rem !important;
+        }
+
+        .subscribe p{
+            height: auto;
+            width: 100%;
+        }
+
+        .subscribe-input{
+            width: 100%;
+            height: 4rem;
+        }
+
+        .subscribe-input input.myplaceholder{
+            text-indent: 10px;
+            font-size: 1rem;
+        }
+
+        .subscribe-input .subscribe-button{
+            height: 90%;
+        }
+    }
+}

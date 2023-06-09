@@ -1,0 +1,323 @@
+.download-mobile-app{
+    position: relative;
+    height: 48.1rem;
+    margin-bottom: 12.6rem;
+
+    img:nth-child(1){
+        position:absolute;
+        z-index: 2;
+    }
+
+    img:nth-child(2){
+        position: relative;
+        z-index: 1;
+        height: 42.714rem;
+        right: -0.8rem;
+    }
+
+    .white-card{
+        background: #fff;
+        height: 11.08rem;
+        padding: 1.179rem 2.28rem 2.69rem 1.2rem;
+        border: 0.877592px solid rgba(255, 255, 255, 0.5);
+        box-shadow: 40px 40px 100px rgba(0, 0, 0, 0.02);
+        border-radius: 16px;
+        right: -18rem;
+        bottom: 33rem;
+        position: relative !important;
+        z-index: 3;
+        width: 7.8rem;
+    }
+
+    .white-card span:nth-child(1){
+        display: flex;
+        align-items: center;
+    }
+
+    .white-card span p {
+        font-family: Poppins;
+        font-size: 0.693rem;
+        font-weight: 400;
+        line-height: 1rem;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #6C6C6C;
+        margin-bottom: 0px;
+    }
+
+    .white-card span strong{
+        position: relative;
+    }
+
+    .white-card .row:nth-child(2){
+        margin-top: 2.2rem;
+
+        span{
+            position: relative;
+            top: -0.1rem;
+            font-size: 1rem;
+            letter-spacing: 3.5px;
+            display: inline-flex;
+            color: #313131;
+        }
+
+        .dots-container{
+            font-family: Poppins;
+            font-size: 0.69rem;
+            font-weight: 500;
+            line-height: 1rem;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #6C6C6C;
+
+        }
+
+        h4{
+            font-family: Roboto;
+            font-size: 1.45rem;
+            font-weight: 700;
+            line-height: 1.45rem;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+
+    //Floating White card bottom
+    .white-card-bottom{
+        background-color: #fff;
+        z-index: 3;
+        border: 1px solid #F1F1F1;
+        box-shadow: -60px 60px 80px rgba(0, 0, 0, 0.03);
+        border-radius: 14.045px;
+        bottom: 48%;
+        margin-left: -2rem;
+        position: relative;
+        height: 4.375rem;
+        width: 100% !important;
+        padding: 0rem;
+        padding-left: 3% !important;
+        align-items: center;
+    }
+
+    .white-card-bottom{
+
+        .icon-container{
+            background-color: #EA0B8C;
+            border-radius: 10px;
+            height: 70.7%;
+            padding: 3%;
+            width: auto;
+            position: relative;
+        }
+
+        .icon-container img{
+            position: relative;
+            height: 80%;
+            width: 25.64px;
+        }
+
+        .pay-type{
+            font-family: Poppins;
+            font-size: 0.819rem;
+            font-weight: 600;
+            line-height: 1.2rem;
+            letter-spacing: 0.01em;
+            text-align: left;
+            position: relative;
+
+            *{
+                text-align: start;
+            }
+        }
+
+        span{
+            font-family: Poppins;
+            font-size: 0.7rem;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #989898;
+        }
+
+        .debit-amount{
+            font-family: Poppins;
+            font-size: 0.7rem;
+            font-weight: 500;
+            line-height: 100%;
+            letter-spacing: -0.03em;
+            text-align: right;
+            color: #FF3D12;
+            position: relative;
+            width: 50%;
+        }
+    }
+    // End white card bottom
+
+    .col-3:nth-child(2){
+
+        h4{
+            font-family: Poppins;
+            font-size:2.83rem;
+            font-weight: 600;
+            line-height: 2.89rem;
+            letter-spacing: 0em;
+            text-align: left;
+            padding: 0px;
+        }
+
+        p{
+            color: #6C6C6C;
+            font-family: Poppins;
+            font-size: 1.05rem;
+            font-weight: 400;
+            line-height: 2.1rem;
+            letter-spacing: 0.015em;
+            text-align: left;
+            margin-bottom: 4.095rem;
+            padding: 0px;
+        }
+    }
+
+    .download-btn{
+        background-color: none;
+        border: 1.5px solid #B5BAE0;
+        border-radius: 25px;
+        padding: 1.6rem 1.57rem;
+        display: flex;
+        background: #fff;
+        align-items: center;
+        justify-content: space-between;
+        width: 15.24rem;
+        margin-bottom: 1.64rem;
+
+        img{
+            font-size: 3.34rem;
+            position: relative;
+            height: 3.33rem;
+        }
+
+        span{
+            font-family: Poppins;
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.2rem;
+            letter-spacing: 0.04em;
+            text-align: left;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 992px){
+    section.download-mobile-app{
+        height: 44rem;
+
+        img:nth-child(1){
+            height: 100%;
+        }
+
+        img:nth-child(2){
+            top: 0rem;
+        }
+
+        .white-card{
+            right: -18rem;
+        }
+
+        .white-card span:nth-child(1){
+            position: relative;
+        }
+
+        .white-card span img:nth-child(1){
+            height: 50%;
+        }
+
+        .white-card .row:nth-child(2) h4{
+            letter-spacing: 0.08rem;
+        }
+
+        .white-card-bottom{
+            bottom: 52.5%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.download-mobile-app{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    section.download-mobile-app{
+        margin-top: 15rem;
+
+        .col-3{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .col-3:nth-child(2){
+            top: 5rem;
+            width: 75%;
+            align-self: center;
+            align-items: center;
+            margin-top: 2rem;            
+
+            h4, p{
+                margin-bottom: 2rem;
+                text-align: center;
+            }
+        }
+
+        .col-3 > img{
+            height: 100%;
+        }
+
+        .col-3 > img:nth-child(1){
+            z-index: 2
+        }
+
+        .col-3 > img:nth-child(2){
+            z-index: 1;
+            right: -4rem;
+        }
+
+        .white-card{
+            right: -0.8rem;
+            bottom: -10rem;
+        }
+
+        .white-card-bottom{
+            position: relative;
+            position: absolute;
+            top: 72%;
+            width: 58% !important;
+            left: 3rem;
+        }
+
+        .col-3 .row:nth-child(3),
+        .col-3 .row:nth-child(4){
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .download-btn-container{
+            justify-content: center !important;
+        }
+
+        .download-btn {
+            margin-bottom: 4.1rem;
+            width: 80%;
+        }
+
+        .download-btn span{
+            font-size: 1.5rem;
+        }
+    }
+}

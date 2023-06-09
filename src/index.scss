@@ -1,0 +1,27 @@
+:root {
+  --site-blue: #3C50E0;
+  --site-grey: #848484;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  position: absolute;
+}
+
+@media screen and (max-width: 992px){
+  html{
+    font-size: 62.5%;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  body{
+    max-width: calc(100vw - 16px);
+  }
+}
+
+

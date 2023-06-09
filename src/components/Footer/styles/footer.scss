@@ -1,0 +1,118 @@
+footer{
+    background: #3C50E0;
+    padding-top: 6.3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .row{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .col-3, .col-2{
+        padding-left: 4rem;
+    }
+
+    div.col-3:nth-child(1){
+        h6{
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 1.764rem;
+            line-height: 1.575rem;
+            color: #FFFFFF;
+            margin-bottom: 2.01rem;
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 0.8rem;
+            line-height: 2.1rem;
+            letter-spacing: 0.015em;
+            color: #E8E8E8;
+            width: 14rem;
+        }
+
+        .social-icons{
+            margin-top: 2rem;
+            display: flex;
+
+            .icon-container{
+                width: 28.47px;
+                height: 28.47px;
+                background: #ECECEE;
+                border-radius: 4px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 1rem;
+            }
+        }
+
+        .copyright-text{
+            margin-top: 4.569rem;
+        }
+    }
+
+    div.col-2{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+        color: #E8E8E8;
+        margin-top: 0.3rem;
+
+        h4{
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 1.1rem;
+            line-height: 1.1rem;
+            color: #E8E8E8;
+        }
+
+        ul {
+            margin-top: 2.5rem;
+            padding-left: 0rem;
+        }
+
+        ul li{
+            margin-bottom: 1rem;
+            list-style-type: none;
+            font-weight: 400;
+            font-size: 0.88rem;
+            line-height: 1.323rem;
+            color: #E8E8E8;
+        }
+    }
+}
+
+@media screen and (max-width: 567px) {
+    
+    footer .row{
+        flex-direction: column-reverse;
+        width: 100%;
+
+        .col-3, .col-2{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 0rem;
+        }
+
+        .col-2 ul{
+            margin-top: 1rem;
+        }
+
+        .col-2 ul li{
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        div.col-3:nth-child(1) p{
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
+}

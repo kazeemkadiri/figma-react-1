@@ -1,0 +1,451 @@
+.hero{
+    margin-top: 2.52em;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 47.25rem;
+
+    .left-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 49.6%;
+    }
+
+    .right-section{
+        background-color: var(--site-blue);
+        border-radius: 0px 10px 10px 0px;
+        position: relative;
+        width: 50.4%;
+    }
+
+    .left-section, .right-section{
+        height: 100%;
+    }
+
+    .left-section{
+        background: #F3F4FF;
+        padding-left: 6em;
+        padding-right: 8.3em;
+        font-family: Poppins;
+    }
+
+    .left-section h1{
+        font-size: 3.4375rem;
+        font-weight: 700;
+        line-height: 4.375rem;
+    }
+
+    .left-section p{
+        font-size: 1em;
+        margin-top: 1.4em;
+        margin-bottom: 3.5em;
+        color: #363D70;
+    }
+
+    .left-section .btn.active{
+        background-color: var(--site-blue);
+        color: #fff;
+        padding: 0.75em 1.5em;
+        border-radius: 1em;
+        font-size: 1.2em;
+        float: left;
+        align-self: baseline;
+    }
+
+    .right-section > div{
+        position: relative;
+
+        &.card-1{
+            width: 9.3em;
+            background: #5D53D1;
+            height: 12.159em;
+            position: absolute;
+            margin-top: 9.2%;
+            margin-left: 14.6%;
+            //background: linear-gradient(151.37deg, #7E54EC -0.02%, rgba(165, 135, 255, 0) 100.02%);
+            border: 0.964733px solid rgba(255, 255, 255, 0.4);
+            filter: drop-shadow(0px 10px 110px rgba(0, 0, 0, 0.2));
+            border-radius: 17.5887px;
+        }
+
+        &.card-1 .row{
+            flex-wrap: nowrap;
+        }
+
+        &.card-1 .down-arrow{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75em;
+            background: #AB92E2;
+            left: 0.76em;
+            top: 1.231em;
+            border-radius: 1.197em;
+            width: 2.457em;
+            height: 2.457em;
+            margin-left: 0.76em;
+        }
+
+        &.card-1 .down-arrow img{
+            height: 0.704em;
+        }
+
+        &.card-1 .income{
+            display: flex;
+            flex-direction: column;
+            margin-left: 0.651em;
+
+            span:nth-child(1){
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 0.7em;
+                line-height: 1.1em;
+                text-align: center;
+                color: #FFFFFF;
+                margin-top: 1.297em;
+                text-align: start;
+            }
+
+            span:nth-child(2){
+                font-family: 'Roboto';
+                font-weight: 700;
+                font-size: 1.134em;
+                line-height: 1.323em;
+                text-align: center;
+                color: #FFFFFF;
+                text-align: start;
+            }
+        }
+
+        &.card-1 .row:nth-child(2){
+            margin-top: 2.483em;
+            padding-left: 0.97em;
+            display: flex;
+            flex-direction: column;
+
+            p:nth-child(1){
+                color: #fff;
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 0.7em;
+                line-height: 1.05em;
+                margin-bottom: 0em;
+            }
+
+            p:nth-child(2){
+                font-family: 'Roboto';
+                font-weight: 700;
+                font-size: 1.619em;
+                line-height: 1.7em;
+                color: #FFFFFF;
+            }
+        }
+
+        &.card-2{
+            width: 39.5%;
+            height: 40%;
+            background: #8C99F9;
+            border: 1.5px solid rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            z-index: 2;
+            left: 32.5%;
+            top: 28.8%;
+        }
+
+        &.card-2 .row{
+            flex-wrap: nowrap;
+        }
+
+        &.card-2 .row:nth-child(1){
+            margin-top: 1.914em;
+        }
+
+        &.card-2 .down-arrow{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem;
+            left: 0.76rem;
+            border-radius: 1.197rem;
+            width: 18.2%;
+            height: 20.2%;
+            margin-left: 8.2%;
+            background-color: #A2ACF8;
+            border-radius: 30px;
+        }
+
+        &.card-2 .down-arrow img{
+            height: 1.09rem;
+            width: 1.09rem;
+        }
+
+        &.card-2 .income{
+            display: flex;
+            flex-direction: column;
+            margin-left: 0.651em;
+
+            span:nth-child(1){
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 1.134rem;
+                line-height: 1.701rem;
+                text-align: center;
+                color: #FFFFFF;
+                text-align: start;
+            }
+
+            span:nth-child(2){
+                font-family: 'Roboto';
+                font-weight: 700;
+                font-size: 1.764rem;
+                line-height: 2.646rem;
+                text-align: center;
+                color: #FFFFFF;
+                text-align: start;
+            }
+        }
+
+        &.card-2 .row:nth-child(2){
+            margin-top: 17%;
+            padding-left: 1.449em;
+            display: flex;
+            flex-direction: column;
+
+            p:nth-child(1){
+                color: #fff;
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 1.134em;
+                line-height: 1.4rem;
+                margin-bottom: 0rem;
+            }
+
+            p:nth-child(1) span img{
+                height: 0.55rem;
+                margin-right: 0.378rem;
+            }
+
+            p:nth-child(2){
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 2.520rem;
+                line-height: 2.520rem;
+                letter-spacing: -0.04rem;
+                color: #FFF;
+            }
+        }
+
+        &.card-3{
+            width: 100%;
+            height: 100%;
+        }
+
+        &.card-3 .white-card{
+            width: 39.5%;
+            height: 8.5%;
+            background: #FFF;
+            border-radius: 13px;
+            position: relative;
+            top: 16.4%;
+            right: 12.6%;
+            float: right;
+
+            .icon-container{
+                margin-left: 0.610em;
+            }
+    
+            .icon-container img{
+                position: relative;
+            }
+    
+            .pay-type{
+                margin-left: 0.864em;
+                font-family: Poppins;
+                font-size: 0.819em;
+                font-weight: 600;
+                // line-height: 1.2em;
+                letter-spacing: 0.01em;
+                text-align: left;
+                display: flex;
+                justify-content: center;
+            }
+
+            strong{
+                margin-bottom: 4px;
+            }
+    
+            span{
+                font-family: Poppins;
+                font-size: 0.7em;
+                font-weight: 400;
+                // line-height: 18px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #989898;
+            }
+    
+            .debit-amount{
+                font-family: Poppins;
+                font-size: 0.7em;
+                font-weight: 500;
+                line-height: 100%;
+                letter-spacing: -0.03em;
+                color: #FF3D12;
+                position: relative;
+                margin-left: 1em;
+            }
+        }
+
+        &.card-4{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        &.card-4 img {
+            position: relative;
+            top: 61%;
+            bottom: 8.5rem;
+            left: 1.3rem;
+            z-index: 4;
+            height: 26.4%;
+        }
+
+        &.card-5{
+            top: 58.5%;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        &.card-5 .dark-card{
+            width: 10.71em;
+            height: 13.545em;
+            background: #0C1229;
+            background-image: url('images/hero-card-5.svg');
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            border-radius: 1em;
+            z-index: 5;
+            right: 10.55%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;     
+            position: relative;   
+            float: right;
+
+            .lyft-parent{
+                background: #242A3E;
+                width: 8.316em;
+                height: 3.415em;
+                padding: 0.567em;
+                margin-top: 1.959em;
+                border-radius: 8px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .lyft-parent .lyft-container{
+                padding: 0.693em 0.5em;
+                background-color: #E60B8A;
+                display: flex;
+                align-content: center;
+                width: auto;
+                border-radius: 7.8px;
+            }
+
+            .lyft-parent .date-container{
+                span{
+                    color: #FFF;
+                }
+
+                span:nth-child(1){
+                    font-size: 0.6em;
+                }
+
+                
+            }
+
+            .row{
+                margin-top: 3em;
+                display: flex;
+                flex-direction: column;
+                margin-right: 1.2em;
+
+                div{
+                    margin: 0em !important;
+                    padding: 0em !important;
+                    margin-left: -0.567em;
+                }
+    
+                div:nth-child(1){
+                    color: #fff;
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 0.8em;
+                    line-height: 1.1em;
+                    margin-bottom: 0em;
+                }
+    
+                div:nth-child(1) span img{
+                    height: 0.55em;
+                    margin-right: 0.378em;
+                    vertical-align: super;
+                }
+    
+                div:nth-child(2){
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 1.5em;
+                    line-height: 1.8em;
+                    letter-spacing: -0.04em;
+                    color: #FFF;
+
+                    span{
+                        color: #FFF;
+                    }
+                }
+
+                div:nth-child(1) > span:nth-child(2){
+                    color: #FFF;
+                }
+            }
+        }
+
+        &.card-1, &.card-2, &.card-3, &.card-4, &.card-5 {
+            position:absolute;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+ }
+
+@media screen and (max-width: 768px) {
+    section.hero{
+        flex-direction: column;
+            .col-6{
+                width: 100%;
+                border-radius: 0px;
+            }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    section.hero{
+        flex-direction: column;
+        .col-6{
+            width: 100%;
+            border-radius: 0px;
+        }
+
+        .right-section, .left-section{
+            width: 100%;
+        }
+    }
+}

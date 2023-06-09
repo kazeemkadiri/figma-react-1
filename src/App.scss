@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.body{
+    padding: 2.5rem 5.35%;
+    margin: auto;
+
+    hr{
+        margin: 150px 0px; 
+    }
+
+}
+
+@media screen and (max-width: 567px) {
+    .body{
+        hr{
+            margin-bottom: 115px;
+        }
+    
+        section.how-it-works{
+            margin-top: 47.25rem;
+        }
+    }
+    
+}

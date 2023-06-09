@@ -1,0 +1,284 @@
+section.info{
+    background-image: url('images/curve-mobile-banking.svg');
+    background-repeat: no-repeat;
+    background-position: 10.45rem 0rem;
+    top: 6.489rem;
+    background-size: 64%;
+    position: relative;
+    height: 28rem;
+
+    .col-3{
+        // display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+    .col-3.info-section, 
+    .col-3.data-card-section, 
+    .col-3.add-cards-section{
+        height: 10rem;
+
+        .info-text{
+            height: 12.4rem;
+        }
+    }
+
+    .col-3 .graphics-container{
+        height: 14rem;
+        width: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0.693rem;
+        background: #FFFFFF;
+        box-shadow: 10px 22px 40px rgba(0, 0, 0, 0.03);
+        border-radius: 20px 20px 20px 0px;
+        padding: 1.3rem;
+
+        span{
+            height: 0.38rem;
+            background: #E4E4E4;
+        }
+
+        span:nth-child(1){
+            width: 4.87rem;
+        }
+
+        span:nth-child(2){
+            width: 7.15rem;
+        }
+
+        span:nth-child(3){
+            width: 3.17rem;
+        }
+
+        span:nth-child(4){
+            width: 4.87rem;
+        }
+    }
+
+    .blue-button{
+        width: 10.45rem;
+        height: 3.38rem;
+        background: var(--site-blue);
+        border-radius: 12px;
+        padding: 0.69rem;
+        position: relative;
+        top: 0.66rem;
+        box-shadow: 0px 20px 50px rgba(60, 80, 224, 0.1);
+
+        .icon-bg{
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;                
+            width: 1.5rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 8px;
+            position: absolute;
+            top: 0.8rem;
+        }
+
+        .bar{
+            width: 5.48rem;
+            height: 0.3rem;
+            position: relative;
+            background-color: #fff;
+            display: flex;
+            right: -2.6rem;
+            top: 0.8rem;
+            border-radius: 8px;
+        }
+    }
+
+    h4{
+        font-family: Poppins;
+        font-size: 1.76rem;
+        font-weight: 600;
+        line-height: 2.64rem;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    p{
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 1.05rem;
+        line-height: 1.39rem;
+        text-align: center;
+        letter-spacing: 0.015em;
+        color: #5D8082;
+        margin-top: 1.72rem;
+    }
+
+    .data-card-container{
+        background-color: #fff;
+        position: relative;
+        // margin-top: 4.69rem;
+    }
+
+    .data-card-container .outer-container{
+        background-color: #fff;
+        box-shadow: -25px 30px 50px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        padding: 0.8rem;
+        position: absolute;
+        top: -4rem;
+        right: -2.4rem;
+    }
+
+    .outer-container .img-container{
+        position: relative;
+        background: #FF6C9E;
+        border-radius: 50%;
+        padding: 0.5rem;
+
+        img{
+            height: 1.26rem;
+            width: 1.5rem;
+        }
+    }
+
+    .data-card-container > .bar-chart{
+        display: flex;
+        height: auto;
+        align-items: baseline;
+        gap: 0.5rem;
+
+        span{
+            width: 1.27rem;
+            background: var(--site-blue);
+            border-radius: 3.16px; 
+        }
+
+        span:nth-child(1){
+            height: 3.98rem;
+        }
+
+        span:nth-child(2){
+            height: 1.075rem;
+        }
+
+        span:nth-child(3){
+            height: 4.939rem;
+        }
+
+        span:nth-child(4){
+            height: 2.509rem;
+        }
+
+        span:nth-child(5){
+            height: 2.907rem;
+        }
+    }
+
+    .add-card-container{
+        width: 7.63rem;
+        height: 9.96rem;
+        background: #8A96F4;
+        border: 0.8px solid rgba(255, 255, 255, 0.5);
+        border-radius: 16px;
+        position: relative;
+    }
+
+    .add-card-container > .add-new-btn{
+        background: #515151;
+        padding: 0.819rem 1rem;
+        box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.04);
+        border-radius: 8px;
+        font-family: Poppins;
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 0.85rem;
+        letter-spacing: -0.01em;
+        text-align: left;
+        top: 3.6rem;
+        left: -4rem;
+        position: absolute;
+    }
+}
+
+section.info-text{
+    .col-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    h4{
+        font-family: Poppins;
+        font-size: 1.76rem;
+        font-weight: 600;
+        line-height: 2.64rem;
+        letter-spacing: 0em;
+        margin-top: 4.4rem;
+    }
+
+    p{
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 1.05rem;
+        line-height: 1.39rem;
+        text-align: center;
+        letter-spacing: 0.015em;
+        color: #5D8082;
+        margin-top: 1.72rem;
+    }
+}
+
+@media (max-width: 768px){
+   section.info{
+    .blue-button{
+        top: 0rem;
+        height: 4.1rem;
+
+        .icon-bg{               
+            width: 1.5rem;
+            padding: 0.4rem 1.4rem;
+            border-radius: 8px;
+            position: absolute;
+            top: 0.8rem;
+        }
+
+        .bar{
+            width: 5.48rem;
+            height: 0.3rem;
+            position: relative;
+            right: -3.3rem;
+            top: 1.25rem;
+            border-radius: 8px;
+        }
+    }
+   }
+}
+
+@media (max-width: 567px){
+    section.info{
+        flex-direction: column;
+        top: 0rem;
+        height: auto;
+
+        .col-3{
+            margin-bottom: 150px;
+            width: 100%;
+        }
+
+        .col-3:last-child{
+            margin-bottom: 0px;
+        }
+
+        .col-3 h4{
+            margin-top: 0px;
+        }
+    }
+}
