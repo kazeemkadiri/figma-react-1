@@ -70,7 +70,7 @@
     .white-card{
 
         .icon-container{
-            margin: 0rem 0rem 0rem 1.638rem;
+            margin: 0rem;
         }
 
         .icon-container img{
@@ -85,6 +85,10 @@
             line-height: 1.2rem;
             letter-spacing: 0.01em;
             text-align: left;
+        }
+
+        .pay-type strong{
+            text-align: start;
         }
 
         span{

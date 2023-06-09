@@ -353,7 +353,7 @@
                 padding: 0.693em 0.5em;
                 background-color: #E60B8A;
                 display: flex;
-                align-content: center;
+                align-items: center;
                 width: auto;
                 border-radius: 7.8px;
             }
@@ -446,6 +446,18 @@
 
         .right-section, .left-section{
             width: 100%;
+        }
+
+        .white-card{
+            .pay-type{
+                margin-left: 0px !important;
+            }
+
+            .debit-amount{
+                width: 26%;
+                padding: 0px;
+                margin-left: 0px !important;
+            }
         }
     }
 }
