@@ -8,8 +8,14 @@ import Connect from './components/Connect/Connect';
 import Subscribe from './components/Subscribe/Subscribe';
 import 'bootstrap/scss/bootstrap.scss';
 import './App.scss'
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    const scrollbarWidth = document.body.offsetWidth - document.body.clientWidth;
+    document.body.style.maxWidth = (100 - (scrollbarWidth/100)) + '%';
+  },[]);
+
   return (
     <>
     <main className='body d-flex flex-column'>
