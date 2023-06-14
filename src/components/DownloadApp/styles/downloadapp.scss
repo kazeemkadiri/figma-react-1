@@ -105,15 +105,17 @@
             background-color: #EA0B8C;
             border-radius: 10px;
             height: 70.7%;
-            padding: 3%;
-            width: auto;
+            width: 3rem;
             position: relative;
+            display: flex !important;
+            justify-content: center;
+            padding-left: 0.7rem !important;
         }
 
         .icon-container img{
             position: relative;
             height: 80%;
-            width: 25.64px;
+            width: 2rem;
         }
 
         .pay-type{
@@ -149,7 +151,7 @@
             text-align: right;
             color: #FF3D12;
             position: relative;
-            width: 50%;
+            margin-left: 20%;
         }
     }
     // End white card bottom
@@ -298,6 +300,7 @@
             top: 72%;
             width: 58% !important;
             left: 3rem;
+            justify-content: space-around !important;
         }
 
         .col-3 .row:nth-child(3),

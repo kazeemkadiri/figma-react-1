@@ -30,12 +30,12 @@ const DownloadApp = () => {
 
           {/* Custom white card */}
           <div className="row white-card-bottom px-0">
-            <div className='col-auto icon-container d-flex align-items-center'><img src={LyftIcon} alt="" /></div>
+            <div className='col-auto icon-container d-flex align-items-center ms-0 ps-0'><img src={LyftIcon} alt="" /></div>
             <div className='col-auto pay-type d-flex flex-column text-center'>
               <strong>Lyft</strong>
               <span className='text-grey'>Debit Card</span>
             </div>
-            <div className="col-auto debit-amount text-danger d-flex align-items-center justify-content-end">
+            <div className="col-auto w-auto debit-amount text-danger d-flex align-items-center justify-content-end">
               - $5,000
             </div>
           </div>

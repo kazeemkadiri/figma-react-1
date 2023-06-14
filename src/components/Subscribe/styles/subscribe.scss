@@ -105,11 +105,14 @@
 
         .subscribe-input input.myplaceholder{
             text-indent: 10px;
+            width: 67%;
             font-size: 1rem;
         }
 
         .subscribe-input .subscribe-button{
             height: 90%;
+            padding: 0.5rem;
+            font-size: 0.9rem;
         }
     }
 }

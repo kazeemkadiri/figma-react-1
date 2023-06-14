@@ -65,7 +65,7 @@ const Hero = () => {
           <div className="card-3">
             <div className="row d-flex white-card px-0">
               <div className='col-auto icon-container d-flex align-items-center px-0'><img src={AppleIcon} alt="" /></div>
-              <div className='col-auto pay-type d-flex flex-column text-center'>
+              <div className='col-auto pay-type d-flex flex-column text-center pe-0'>
                 <strong>Apple Pay</strong>
                 <span className='text-grey'>Debit Card</span>
               </div>
